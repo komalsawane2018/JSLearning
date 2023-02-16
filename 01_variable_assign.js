@@ -1,6 +1,6 @@
 console.log("******************* 1st.Step******************");
 var myFullName;
-console.log(undefined);
+console.log(myFullName);
 var myFullName = "Komal Sawane";
 console.log("My Full Name:", myFullName)
 var myFullName ="Komal Latesh Sawane";
