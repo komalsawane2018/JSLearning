@@ -1,9 +1,9 @@
 console.log("******************* 1st.Step******************");
-var myFullName;
-console.log(myFullName);
-var myFullName = "Komal Sawane";
+var myFullName;      // Variable Declaration 
+console.log(myFullName);  
+var myFullName = "Komal Sawane";  // Variable Initilization
 console.log("My Full Name:", myFullName)
-var myFullName ="Komal Latesh Sawane";
+var myFullName ="Komal Latesh Sawane";   // Variable Declaration & Initilization on same line
 console.log("My Full Name:",myFullName);
 
 

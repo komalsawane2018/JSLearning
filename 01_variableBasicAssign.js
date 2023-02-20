@@ -17,14 +17,14 @@ console.log( "City Name:", city,"Data type:", typeof city);
 console.log("***************Boolean*************************");
 var isYouMarried = true;
 console.log("Marital Status:", isYouMarried,"Data type:",typeof isYouMarried );
-var isYourGraduate = true;
-console.log("Graduation:", isYourGraduate, "Data type:", typeof isYourGraduate);
+var isYouGraduate = true;
+console.log("Graduation:", isYouGraduate, "Data type:", typeof isYouGraduate);
 
 
 console.log("*********************2nd Step*************************");
 
 var name = null;
-console.log("My Name:", name, typeof name);
+console.log("My Name:", name, "Data type:",typeof name);
 console.log("*****************Undefined*************************");
 var abc;
 console.log("ABC:", abc,"Data type:", typeof abc);
