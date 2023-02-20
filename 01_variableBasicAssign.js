@@ -26,7 +26,7 @@ console.log("*********************2nd Step*************************");
 var name = null;
 console.log("My Name:", name, typeof name);
 console.log("*****************Undefined*************************");
-var ABC;
-console.log("ABC:", ABC,"Data type:", typeof ABC);
+var abc;
+console.log("ABC:", abc,"Data type:", typeof abc);
 
 
