@@ -1,7 +1,7 @@
 var greet = "Good Morning";
 console.log(typeof greet);
 
-console.log("Toatal num of chars available into this string variable - greet");
+console.log("Total num of chars available into this string variable - greet");
 var greetLength = greet.length;
 console.log("Total length of string is:",greetLength);
 
@@ -9,9 +9,9 @@ console.log("Find the character by index value");
 var charAtIndex=greet.charAt(3);
 console.log("character available at index 3 is:",charAtIndex);
  
-// console.log("Find last character");
-// var characterAtLastIndex(greet.Length-1);
-// console.log("last character:",characterAtLastIndex);
+console.log("Find the last character");
+var charAtLastIndex = greet.charAt(greetLength-1);
+console.log("last char is:",charAtLastIndex);
 
 console.log("Find the index by char value");
 var indexOfM=greet.indexOf('M');
@@ -38,7 +38,7 @@ console.log(count);
 
 console.log(myName.trimStart(), myName.trimEnd());
 
-console.log("includes()");
+console.log("includes()") ;
 console.log("Is substring Mor includes in the greet or not: ", greet.includes("Mor"));
 console.log("Is substring Afternoon includes in the greet or not: ", greet.includes("Afternoon"));
 console.log("Is substring o includes in the greet or not: ", greet.includes("o"));
