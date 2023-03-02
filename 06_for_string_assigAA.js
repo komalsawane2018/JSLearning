@@ -1,6 +1,6 @@
 
-console.log(`-----------------Step 1-------------------`);
-
+console.log(`-----------------Step 1.-------------------`);
+// To Find Vowel in given string
 var vowel = function (str) {
     var count = 0;
     for (let index = 0; index < str.length; index++) {
@@ -28,7 +28,7 @@ Total number of Vowel is : ${count}`);
 
 
 
-console.log(`-----------------Step 2-------------------`);
+console.log(`-----------------Step 2.-------------------`);
 
 // To Find count of last word in given string
 function lastWordCharsCount(str){
@@ -57,4 +57,4 @@ Total count of last word is : ${result}`);
 
 var result = lastWordCharsCount(`Hard work and commitment is the key of success`)
 console.log(`Given String : "Hard work and commitment is the key of success"
-Total count of last word is : ${result}`);
+Total count of last word is : ${result}`)
