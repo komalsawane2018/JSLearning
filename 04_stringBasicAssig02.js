@@ -22,7 +22,7 @@ var count = givenString.length-givenStringTrim.length;
 console.log("Total number of removed extra spaces count is:",count);
 
 console.log("---------------Step 5.  --------------------------------------");
-var charFirstIndex = givenStringTrim.charAt(givenStringTrim-0);
+var charFirstIndex = givenStringTrim.charAt(0);
 console.log("First char is:", charFirstIndex);
 var charLastIndex = givenStringTrim.charAt(givenStringTrim.length-1);
 console.log("Last char is:", charLastIndex);
