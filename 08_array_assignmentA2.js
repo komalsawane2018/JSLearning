@@ -17,19 +17,17 @@ console.log(`*********** 3rd  Third Last element in arrayNumber ****************
 console.log(`  3rd last element in arrayNumber is : ${arrayNumbers[arrayNumbers.length - 3]}`);
   
 console.log(`*********** 4th Find Even numbers in arrayNumber ******************`);
-
-var index = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];
 
   if (element % 2 == 0) {
-    console.log(`  Even Number : ${element}`);
+  
+   console.log(`  Even Number : ${element}`);
   }
 }
 
 console.log( `*********** 5th Find Odd Numbers in arrayNumber ******************`);
  
-var index = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];
   if (element % 2 != 0) {
@@ -39,22 +37,22 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 
 console.log(`*********** 6th Find all even positioned element from arrayNumber and sum it ******************`);
  
-const sumOfEven = 0;
+let sumOfEven = 0;
 for (let index = 0; index < arrayNumbers.length; index=index+2) {
     const element = arrayNumbers[index];
-    sum = element+sumOfEven;
-    // console.log(`The sum of even positioned element is : ${sumOfEven}`);
-    console.log(`Sum of even position element are : 183`);
+    sumOfEven = element+sumOfEven;
+     console.log(`The sum of even positioned element is : ${sumOfEven}`);
+    // console.log(`Sum of even position element are : 183`);
 }
 
 console.log(`*********** 7th Find all odd positioned element from arrayNumber and sum it ******************`);
 
-const sumOfOdd = 0;
+let sumOfOdd = 0;
 for (let index = 1; index < arrayNumbers.length; index=index+2) {
     const element = arrayNumbers[index];
-    sum = element+sumOfOdd;
-    // console.log(`The sum of odd positioned element is : ${sumOfOdd}`);
-    console.log(`Sum of odd position element are : 78`);
+    sumOfOdd = element+sumOfOdd;
+     console.log(`The sum of odd positioned element is : ${sumOfOdd}`);
+    // console.log(`Sum of odd position element are : 78`);
 }
 
 
@@ -64,8 +62,8 @@ var sum = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];
   sum = sum + element;
-//   console.log(sum);
-console.log(`Sum of all element from arrayNumber is : 261`);
+   console.log(sum);
+// console.log(`Sum of all element from arrayNumber is : 261`);
 }
 console.log(`*********** 9th Find number which are multiple of 5  ******************`);
 
