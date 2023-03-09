@@ -36,6 +36,7 @@ console.log(`-------------------Adding element first using unshift() method-----
 arrayOfNumbers.unshift(5);
 console.log(arrayOfNumbers);       
 
+var arrayOfNumbers = [ 10, 20, 25, 15, 30, 5];
 console.log(`-------------------Removing  last element using pop() method---------------`);
 arrayOfNumbers.pop();
 console.log(arrayOfNumbers);
@@ -45,6 +46,9 @@ console.log(`-------------------Removing  fist element using shift() method-----
 arrayOfNumbers.shift();
 console.log(arrayOfNumbers);
 
+
+arrayOfNumbers.pop();
+console.log(arrayOfNumbers);
 
 
 var arrayOfNumbers = [ 10, 20, 25, 15, 30, 5, 40, 45];
@@ -108,3 +112,22 @@ var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
 arrayOfNumbers.splice(2, 2 ,50,60);
 console.log(arrayOfNumbers);
 
+
+// console.log("===== Traversing Array ====================");
+// var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+// const element = arrayOfNumbers[index]
+// console.log(element);
+
+console.log("===== Sum of Array ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+let sum = 0; // 10
+for (let index = 0; index < arrayOfNumbers.length; index++) {//1
+    const element = arrayOfNumbers[index];
+   sum = sum + element;// sum = 0 + 20
+    // console.log(element);
+}
+console.log(`Sum of an Array element is: ${sum}`);
