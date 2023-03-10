@@ -45,5 +45,5 @@ console.log(`-------------7th Add one new certificate at the end of array certif
 console.log(professor.certificate); 
 
 console.log(`-------------8th log last element of the array certificate-----------`);
-console.log(`Last element of array certificate :Oracle Certified `);
+console.log(` ${professor.certificate[professor.certificate.length-1]}`);
 

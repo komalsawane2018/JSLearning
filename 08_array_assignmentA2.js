@@ -29,8 +29,10 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 console.log( `*********** 5th Find Odd Numbers in arrayNumber ******************`);
  
 for (let index = 0; index < arrayNumbers.length; index++) {
+  
   const element = arrayNumbers[index];
-  if (element % 2 != 0) {
+  if (index % 2 != 0) {
+   
     console.log(`  Odd Number : ${element}`);
   }
 }
@@ -38,12 +40,29 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 console.log(`*********** 6th Find all even positioned element from arrayNumber and sum it ******************`);
  
 let sumOfEven = 0;
-for (let index = 0; index < arrayNumbers.length; index=index+2) {
+for (let index = 0; index < arrayNumbers.length; index= index+2) {
     const element = arrayNumbers[index];
-    sumOfEven = element+sumOfEven;
-     console.log(`The sum of even positioned element is : ${sumOfEven}`);
-    // console.log(`Sum of even position element are : 183`);
-}
+
+      sumOfEven = sumOfEven + element; 
+      
+    }
+
+     
+
+// console.log(`The sum of even positioned element is : ${sumOfEven}`);
+
+// let evenposition=[]
+// let sum1=0
+// for (let index = 0; index < arrayNumbers.length; index++) {
+//     const ele=arrayNumbers[index]
+//     if (index%2==0) {
+//         evenposition.push(ele)
+//         sum1=sum1+ele
+        
+//     }
+    
+
+console.log(`6) Even position elements in the array is = ${evenposition} and sum of the even position elements in the array is ${sum1}`);
 
 console.log(`*********** 7th Find all odd positioned element from arrayNumber and sum it ******************`);
 
