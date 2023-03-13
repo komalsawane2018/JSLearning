@@ -61,7 +61,7 @@ function traverseObject(collegeName) {
 for (const key in collegeName) {
     if (Object.hasOwnProperty.call(collegeName, key)) {   // Traversing Object using for in loop
         const element = collegeName[key];
-        console.log(key,element);
+        console.log(`${key} : ${element}`);
         
     }
 }
