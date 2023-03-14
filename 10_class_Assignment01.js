@@ -78,17 +78,14 @@ traverseObject(collegeMit);
 
 // console.log(`================================= 4th Prime Numbers ======================================`);
 
-// function isPrime(n){
-//     if (n<2) 
-//        return `${n} is not prime`
-//        for (let index = 2; index < n; index++) {
-//            if (n % index===0) {
-//                return`${n} is not a prime number` 
-//            }
-//            return`${n} is a prime number`  
-//            }
-//         }
-    
-   
-//    console.log(isPrime(13));
-//    console.log(isPrime(10));
+ function isPrime(num){
+
+    for (let index = 2; index < num; index++) {
+        if (num % index ==0) {
+            return 'Not Prime Number'
+        }
+        return 'Prime Number'
+    }
+ }
+   console.log(isPrime(13));
+   console.log(isPrime(10));
