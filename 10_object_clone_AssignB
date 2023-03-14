@@ -1,0 +1,50 @@
+console.log(`==============Step 1. Create Object bankSbi======================`);
+const bankSbi = {
+
+    bankName    : "SBI Bank",
+    ifscCode    : "SBIN0020852",
+    branchCode  : "SBIN001",
+    accountNo   : "8795622422"
+
+}
+console.log(`Bank Name : ${bankSbi.bankName}, IFSC Code : ${bankSbi.ifscCode}, Branch Code : ${bankSbi.branchCode}, Account No : ${bankSbi.accountNo}`);
+console.log(`===============Step 2. Create Object bankLoaction==================`);
+const bankLocation = {
+    street  : "Pune Solopur Road", 
+    city    : "Pune",
+   pinCode  : "411028"
+}
+console.log(`Street : ${bankLocation.street}, City: ${bankLocation.city}, Pin Code : ${bankLocation.pinCode}`);
+console.log(`================Step 3. Clone Object ==============================`);
+
+console.log(`------------ Clone using Object.assign() Operator -----------------------------------------`);
+const cloneObject = Object.assign( {}, bankSbi,bankLocation);
+console.log(cloneObject);
+
+console.log(`------------ Clone using Spread Operator -----------------------------------------`);
+const cloneBank = {...bankSbi,...bankLocation}
+console.table(cloneBank);
+
+ console.log(`==========Step 5. Create new object rateOFInterest  ==============================`);
+
+const rateOFInterest = {
+    homeLoanInterest         : "12%",
+    personalLoanInterest     : "9%",
+    dueInterest              : "13%"
+
+}
+console.log(`Home Loan Interest : ${rateOFInterest.homeLoanInterest}, Personal Loan Interest : ${rateOFInterest.personalLoanInterest}, Due Interest : ${rateOFInterest.dueInterest}`);
+
+console.log(`==========Step 6. Merged step 1,step2 and step 3 ==============================`);
+const sbiDetails = {...bankSbi,...bankLocation,...rateOFInterest}
+console.table(sbiDetails);
+
+console.log(`==========Step 6. Traverse the merged object ==============================`);
+
+for (const key in sbiDetails) {
+    if (Object.hasOwnProperty.call(sbiDetails, key)) {
+        const element = sbiDetails[key];
+        
+        console.log(`${key} : ${element}`);
+    }
+}
