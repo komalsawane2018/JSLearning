@@ -1,27 +1,27 @@
 
-console.log(`-----------------Step 1.-------------------`);
-// To Find Vowel in given string
-var vowel = function (str) {
-    var count = 0;
-    for (let index = 0; index < str.length; index++) {
-        var char = str.charAt(index);
-        if (char == "i" || char == "u" || char== "o" || char== "a" || char== "e" || char == 'E' 
-        || char =='O' || char=='U' || char =='A' || char == 'I' ) {
-            count = count + 1;    
-        }
+// console.log(`-----------------Step 1.-------------------`);
+// // To Find Vowel in given string
+// var vowel = function (str) {
+//     var count = 0;
+//     for (let index = 0; index < str.length; index++) {
+//         var char = str.charAt(index);
+//         if (char == "i" || char == "u" || char== "o" || char== "a" || char== "e" || char == 'E' 
+//         || char =='O' || char=='U' || char =='A' || char == 'I' ) {
+//             count = count + 1;    
+//         }
 
-    }
-    return count;
-}
- var count = vowel("JavaScript is the langugae of Internet")
-console.log(`Given String : "JavaScript is the langugae of Internet"
-Total number of Vowel is : ${count}`);
-var count = vowel(`I am Angular Developer`)
-console.log(`Given String : "I am Angular Developer" 
-Total number of Vowel is : ${count}`); 
- var count = vowel(`Hard work and commitment is the key of success`)
- var count = console.log(`"Given string : Hard work and commitment is the key of success"
- Total number of Vowel is : ${count}`);
+//     }
+//     return count;
+// }
+//  var count = vowel("JavaScript is the langugae of Internet")
+// console.log(`Given String : "JavaScript is the langugae of Internet"
+// Total number of Vowel is : ${count}`);
+// var count = vowel(`I am Angular Developer`)
+// console.log(`Given String : "I am Angular Developer" 
+// Total number of Vowel is : ${count}`); 
+//  var count = vowel(`Hard work and commitment is the key of success`)
+//  var count = console.log(`"Given string : Hard work and commitment is the key of success"
+//  Total number of Vowel is : ${count}`);
 
 
 
@@ -40,12 +40,9 @@ function lastWordCharsCount(str){
             break;
         }
         count = count + 1;
-        
-        
+           
     }
     return count;
-
-
 }   
 var result = lastWordCharsCount(`"JavaScript is the langugae of Internet`)
 console.log(`Given String : "JavaScript is the langugae of Internet"

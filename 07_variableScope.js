@@ -1,34 +1,48 @@
 
+var firstName; // Variable declaration  
+firstName = "Virat";  // Variable Initialization
 
+var lastName = "Kohli"; // Variable declaration and Initialization
+firstName = "King Kohli"; // Variable update
 
-var firstName; // variable declaration
- firstName = "Virat" //variable initialization
+var firstName; // Variable re-declaration
+console.log(firstName);
 
- var lastName = "kohli"; //variable declaration and initialization
- firstName = "King kohli"; // variable update
+let city; // Variable declaration
+console.log("Value of city:", city);
+city = "Delhi"; // Variable  Initialization
 
- var firstName;//variable re-declaration
- console.log(firstName);
+// let city = "Mumbai"; // Not allowed Variable re-declaration
 
- let city; //  variable declaration
- city = "Delhi";//variable declaration and initialization
-
-//  let city = "Mumbai"; // variable declaration
-
-const PI = 3.14;
-// PI = 3.56;//update or modify not allowed
+const PI= "3.14";
+// PI = 3.56; // Update or modify not allowed
 console.log(PI);
-// const PI = 3.1412; // re-declaration of const variable is not allowed
+// const PI = 3.1412; // Re-declaration of const variable is not allowed
 
 var num = 10;
-if (num==10) {
-  let word ="Revision is the mother of success"
-    
+if(num==10){
+    let word = "Revision is the mother of Success";
 }
 // console.log(word);
-    
-function sayHi(){
-var greet = "Hi Good Morning"
+
+function sayHi(arg){
+    var greet = "Hi Good Morning";
+    if (arg%2==0) {
+        var isEven = true; 
+    } else {
+        var isEven = false; 
+    }
+    return isEven;
 }
-sayHi()
 // console.log(greet);
+let result = sayHi(10);
+console.log(result);
+// console.log(greet);
+
+var fullName = "MS Dhoni";
+if (true) {
+    console.log("Hello", age);
+} else {
+    var age = 37;
+}
+console.log(age);
