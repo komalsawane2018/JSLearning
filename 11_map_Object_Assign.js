@@ -34,9 +34,9 @@ console.log(`=====================2nd Step In Map Key is account No and Value is
 console.log(mapOfBanks);
 
 console.log(`================= 3rd Step.Traversing Map=============================================================================`);
-const keyOfMap= mapOfBanks.keys();
+//const keyOfMap= mapOfBanks.keys();
 
-for (const key of keyOfMap) {
+for (const key of mapOfBanks.keys()) {
     
     const element = mapOfBanks.get(key)
 console.log(`Bank Name : ${element.bank_Name}, Account No. : ${element.account_no}, Interest Rate : ${element.interest_rate}`);
