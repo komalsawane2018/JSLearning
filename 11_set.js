@@ -9,9 +9,16 @@ setOfNums.add(9);
 setOfNums.add(3);
 console.log(setOfNums);
 
-console.log(setOfNums.size);
-setOfNums.delete(8);
+console.log(setOfNums.size);   // size
+setOfNums.delete(9);
 console.log(setOfNums);
 
-// setOfNums.clear();
-console.log(setOfNums.values());
+
+ console.log(setOfNums.values());
+console.log(`===================`);
+for (const element of setOfNums) {
+    console.log(element);
+}
+
+//setOfNums.clear();
+// console.log(setOfNums);
