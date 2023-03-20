@@ -10,13 +10,14 @@ function Bank(bankName,location,ifscCode,brachCode) {
     }
 }
 const yesBank = new Bank("YES Bank","Pune","YESB0000008","YES2512");
-yesBank.show();
+yesBank.show();    //call function
 const sbiBank = new Bank("SBI Bank","Pune","SBIN0000455","SBI8745");
-sbiBank.show();
+sbiBank.show();      //call function
+
 const mahBank = new Bank("Maharashtra Bank","Mumbai","MAHB56188","MAH7453");
-mahBank.show();
+mahBank.show();     //call function
 const axisBank = new Bank("Axis Bank","Nashik","UTIB0000037","UTI5682");
-axisBank.show();
+axisBank.show();     //call function
 console.log(`===============2nd Step Adding data member to object============================`);
 Bank.prototype.openTime = "9 AM IST";
 Bank.prototype.closeTime = "6 PM IST";
