@@ -29,7 +29,8 @@ console.log(professor.degrees);
 console.log(`-----------3rd Add Array with name certificate---------------------`);
 console.log(professor.certificate);
 console.log(`-----------4th Add function and Concate all degrees---------------------------------`);
-let result = professor.degreesDetails();
+let result = professor.degreesDetails();   // call function
+
 console.log(result);
 
 professor.totalExperience = "14 years"
