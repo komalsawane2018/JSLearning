@@ -29,3 +29,7 @@ console.log(typeof date);          // Built in
 
  const result = Math.pow(2,3);
  console.log(result);
+
+
+ const dateof = new Date();
+ console.log(dateof);
