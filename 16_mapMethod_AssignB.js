@@ -49,4 +49,4 @@ const nameOFEmp = arrayEmployee.map((employee) =>{
 if (employee.emp_company == "TCS") {
     console.log(`Employee Name: ${employee.emp_name},  Company Name: ${employee.emp_company}`);
 }
-})
+});
