@@ -23,12 +23,12 @@ const punjab_Bank = new Bank ("Punjab Bank", "Kolkata", "456653690","PUNB0078456
 console.log(punjab_Bank);
 
 const mapOfBanks = new Map();
-mapOfBanks.set("456156600",    axis_Bank);
-mapOfBanks.set("124640117",    sbi_Bank);
-mapOfBanks.set("412297565",    icici_Bank);
-mapOfBanks.set("256625221",    kotak_Bank);
-mapOfBanks.set("200678830",    hdfc_Bank)
-mapOfBanks.set("456653690",    punjab_Bank);
+mapOfBanks.set(axis_Bank.account_no,  axis_Bank);
+mapOfBanks.set(sbi_Bank.account_no,    sbi_Bank);
+mapOfBanks.set(icici_Bank.account_no,    icici_Bank);
+mapOfBanks.set(kotak_Bank.account_no,    kotak_Bank);
+mapOfBanks.set(hdfc_Bank.account_no,    hdfc_Bank)
+mapOfBanks.set(punjab_Bank.account_no,    punjab_Bank);
 
 console.log(`=====================2nd Step In Map Key is account No and Value is Object==========================================`);
 console.log(mapOfBanks);
