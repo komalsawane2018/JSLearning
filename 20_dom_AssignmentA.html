@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exercise Time! </title>
+    </head>
+    <body>
+        <main>
+            <div id="overview">
+                <h1> HTML & JavaScript are crucial technologies </h1>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li> Flexible </li>
+                    <li> Available </li>
+                    <li> Magical </li>
+                </ul>
+            </div>
+            <main> 
+                <script>
+                    console.log(`========= h1 element store in mainHeading =========`);
+                    const mainHeading = document.querySelector("h1")
+                    console.log(mainHeading.innerHTML);
+
+                    console.log(`========= li element store in secondAdvantage =========`);
+                
+                    const secondAdvantage = document.querySelectorAll("li")
+                    console.log(secondAdvantage[1].innerHTML);
+
+                    console.log(`========= advDiv store <div> with the id advantages =========`);
+                    const advDiv = document.querySelector("#advantages")
+                    console.log(advDiv.innerHTML);
+
+                </script>
+            </main>
+        </main>
+    </body>
+</html>
