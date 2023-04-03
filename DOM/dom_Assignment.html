@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exercise time! </title>
+ </head>
+ <body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id = "advantages"> 
+        <ul>
+            <li>Flexible</li>
+            <li>Available</li>
+            <li>Mogical</li>
+        </ul>
+    </div>
+    </main>
+    <script>
+        
+        const mainHeading = document.querySelector("h1")
+        mainHeading.style.color = "blue"
+        mainHeading.style.fontWeight= "bolder" 
+        console.log(mainHeading.innerHTML);
+         const secondAdvantages = document.querySelectorAll("li")
+         console.log(secondAdvantages[1].innerHTML);
+         const divAdv = document.querySelector("#advantages")
+         console.log(divAdv.innerHTML);
+
+         const paraElement = document.querySelector("p")
+         paraElement.style.fontStyle = "Italic"
+         paraElement.style.color = "brown"
+         paraElement.style.fontSize = "larger"
+         paraElement.style.borderBottom = "2px solid grey"
+        console.log(paraElement.innerHTML);  
+    
+    </script>
+ </body>
+</html>
