@@ -7,8 +7,8 @@ console.log(`=================================Prime Numbers ====================
         if (num % index ==0) {
             return 'Not Prime Number'
         }
+        }
         return 'Prime Number'
-    }
  }
    console.log(isPrime(13));
    console.log(isPrime(10));
