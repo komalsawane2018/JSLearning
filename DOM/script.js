@@ -49,6 +49,47 @@ const elementJira = document.querySelector("#list")
 
 elementAgile.removeChild(elementJira)
 
+console.log("====== Adding Element =====");
+const elementDiv = document.querySelector("#divProject");
+const elementP = document.createElement("p");
+const elementText = document.createTextNode("Team Size - 7");
+elementP.appendChild(elementText);
+elementDiv.appendChild(elementP);
+console.log("====== Adding Element =====");
 
+ function show() {
+    console.log("Click Event.....");
+}
+console.log("====== Adding Element =====");
 
+const elementAddress = document.querySelector("#address");
+elementAddress.addEventListener("click", ()=> {
+    console.log("Listening click event.....");
+});
+console.log("====== Mouse over =====");
 
+elementAddress.addEventListener("mouseover", () => {
+    console.log("Mouse over....");
+});
+
+const isEvenButton = document.querySelector("#isEvenButton");
+isEvenButton.addEventListener('click', () => {
+    const inputValue = prompt("Please enter number to check..", 0);
+    const givenNum = +inputValue;
+    if (inputValue==null || isNaN(givenNum) || givenNum<0) {
+        alert("Invalid value");
+    }else{
+        const result = inputValue%2==0 ? true : false;
+        if(result){
+            alert("Given Number is Even");
+        }else{
+            alert("Given number is Odd");
+        }
+    }
+} );
+
+const confirmElement = document.querySelector("#confirm");
+confirmElement.addEventListener('click',  () => {
+   const result = confirm("Are you sure ?");
+   console.log(result);
+});
